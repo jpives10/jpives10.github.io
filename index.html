@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Justin Ivey's local Arizona FLL volunteer report collector.">
+  <title>FLL VMS Collector Personal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">FLL VMS Collector Personal</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="terms.html">Terms of use</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Volunteer report collection for Arizona FLL</h1>
+    <p class="intro">A local application operated by Justin Ivey to collect and verify FIRST Volunteer Management System reports for Arizona FIRST LEGO League volunteer administration.</p>
+    <section>
+      <h2>What the application does</h2>
+      <p>The collector runs on the operator's Mac. It exports Assigned Volunteers, Volunteer Application Status, and Years of Service and Alumni Status for the 12 authorized active events.</p>
+      <p>It validates each report's event identity, structure, and SHA-256 checksum. A daily batch contains 36 CSV reports. Publication includes verification of the uploaded bytes, a collection manifest, and a completion marker after all required checks pass.</p>
+    </section>
+    <section>
+      <h2>Google Drive access</h2>
+      <p>The application requests access to files and folders selected by the operator, and files it creates, using Google's <code>drive.file</code> permission. It reads folder and account metadata to confirm the destination and authorized account.</p>
+      <p>Reports are organized into dated folders within the operator's three designated Google Drive export destinations. The Google approval screen lets the operator select the folders used for collection.</p>
+    </section>
+    <section>
+      <h2>Operator and contact</h2>
+      <p>Justin Ivey operates this application for his volunteer coordination workflow. Questions about access, report handling, or this application can be sent to the support address below.</p>
+      <p><a href="mailto:iveyjustin@outlook.com">iveyjustin@outlook.com</a></p>
+    </section>
+    <p>Read the <a href="privacy.html">privacy policy</a> and <a href="terms.html">terms of use</a> for details.</p>
+  </main>
+  <footer>FLL VMS Collector Personal · Operated by Justin Ivey</footer>
+</body>
+</html>
